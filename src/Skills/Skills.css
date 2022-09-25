@@ -1,0 +1,151 @@
+#SkillBox {
+  font-size: 1.25rem;
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(37, 36, 36, 0.3);
+  margin: 20px auto;
+}
+#Skill-HTML {
+  width: 65%;
+  animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+#Skill-JS {
+  animation: Animate-JS 4s;
+
+  width: 78%;
+  height: 50px;
+  position: absolute;
+  background-color: #b1710a;
+}
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 78%;
+  }
+}
+#Skill-C {
+  animation: Animate-C 4s;
+
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #970cc1;
+}
+@keyframes Animate-C {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+#Skill-REACT {
+  animation: Animate-REACT 4s;
+
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #23b1db;
+}
+@keyframes Animate-REACT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+#Skill-EXPRESS {
+  animation: Animate-EXPRESS 4s;
+
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #5a69a6;
+}
+@keyframes Animate-EXPRESS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+#Skill-MONGO {
+  animation: Animate-MONGO 4s;
+
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #0c6d1f;
+}
+@keyframes Animate-MONGO {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+.Skill-Area {
+  z-index: 1;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+
+  font-size: 18px;
+}
+.PercentText {
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+
+  font-size: 18px;
+}

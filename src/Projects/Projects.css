@@ -1,0 +1,57 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 12%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+  margin: 5px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 248, 255);
+  margin-top: 1px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0.7rem;
+  margin: 5px;
+  font-size: 1.25rem;
+}
+
+.solid-btn {
+  color: white;
+  background-color: rgb(3, 118, 122);
+}
+
+.outline-btn {
+  border: 1px solid rgb(3, 118, 122);
+  color: rgb(3, 118, 122);
+}
+
+.outline-btn:hover {
+  color: white;
+  background-color: rgb(3, 118, 122);
+}
+
+@media (max-width: 568px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    padding: 5%;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 1068px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
