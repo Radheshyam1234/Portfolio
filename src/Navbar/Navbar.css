@@ -8,18 +8,15 @@
   font-size: 1.75rem;
   padding: 4px;
 }
-.nav-item:hover {
-  border-bottom: 4px solid rgb(12, 165, 12);
-}
 
 .nav-left {
-  flex: 0.4;
+  flex: 0.2;
 }
 
 .nav-right {
   display: flex;
   justify-content: flex-end;
-  flex: 0.6;
+  flex: 0.8;
 }
 .nav-right .nav-item {
   margin-right: 2rem;
