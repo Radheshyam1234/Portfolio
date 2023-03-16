@@ -53,7 +53,7 @@ export default function App() {
         <span className="ball k"></span> */}
       </div>
 
-      <a href="https://drive.google.com/file/d/1dqaNLHVNeGDXU2lrd6014Ym3aEzIC5aW/view">
+      <a href="https://drive.google.com/file/d/1TqUbMCKimM0M9tmpSWi4gWAcXOvZ3ES6/view?usp=sharing">
         <button className="resume-download-btn">Download Resume</button>
       </a>
 
