@@ -58,9 +58,8 @@ export default function App() {
       </a>
 
       <div className="intro-section">
-        Hi, myself Radheshyam . I am a{" "}
-        <b>Frontend-Fullstack (MERN) developer</b>, currently pursuing my
-        bachelor's at <b>NIT JALANDHAR</b> (2019-2023) .
+        Hi, myself Radheshyam. I am a{" "} recent college graduate (2019-2023) from  <b>NIT Jalandhar</b>. I am skilled as a 
+        <b>Frontend-Fullstack (MERN) developer</b> and currently working as an SDE Intern @Preplaced.
       </div>
 
       <div
